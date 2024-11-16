@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100%;
+    padding: 0px 0px;
+    
+}
+
+.card{
+    width: 595.27px;
+    height: 841.8px;
+    display: flex;
+    border: 1px solid #000;
+    background: #eee;
+    
+   
+}
+.card .left{
+    width: 220px;
+    border-right: 1px solid #000;
+    height: 100%;
+    padding: 20px;
+    
+    
+}
+.card .c-img {
+    width: 100%;
+    height: 180px;
+    
+}
+.card .c-img img{
+    color: rgb(229, 75, 75);
+}
+.card .contact{
+    width: 100%;
+    padding: 0px 0;
+    /* border: 1px solid; */
+    margin: 15px 0;
+    
+}
+.card .contact h2{
+    border-bottom: 4px solid;
+    margin-bottom: 10px;
+}
+.card .contact .data{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.card .contact .data .icon{
+    width: 26px;
+    height: 25px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+}
+.card .comp h2{
+    margin-bottom: 10px;
+    border-bottom: 4px solid;
+}
+.card .comp ul{
+    font-size: 13px;
+    padding: 13px;
+}
+.card .comp ul li{
+    margin-bottom: 10px;
+    list-style: square ;
+}
+
+.lang h2{
+    margin-bottom: 15px;
+    border-bottom: 4px solid;
+}
+.lang h4{
+    margin: 5px 0;
+}
+.card .right{
+    width: 100%;
+    height: 100%;
+}
+.card .right .top{
+  width: 100%;
+  height: 245px;
+  padding: 20px;
+}
+.card .right .top h1{
+  text-transform: uppercase;
+  padding-bottom: 12px;
+}
+.card .right .top h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.card .right .top p{
+  font-size: 13px;
+  margin-top: 15px;
+}
+.card .right .bottom{
+  width: 100%;
+  height: calc(100% - 250px);
+  padding: 20px;
+  border-top: 1px solid;
+  
+}
+.card .right .bottom h2{
+  border-bottom: 4px solid;
+}
+.c-bottom{
+  padding: 20px 0;
+  align-items: flex-start;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.c-bottom .date{
+  width: 30%;
+}
+.c-bottom .date h5{
+  font-size: 10px;
+}
+.c-bottom .date p{
+  font-size: 10px;
+}
+.c-bottom .exp{
+  width: 60%;
+}
+.c-bottom .exp p{
+  font-size: 12px;
+}
+#pdf{
+  width: 300px;
+  height: 80px;
+  background: #46D061;
+  position: relative;
+  top: 80px;
+  padding: 15px 35px;
+  font-size: 14px;
+  font-size: 18px;
+  left: 50%;
+  transform: translatey(-50%);
+  text-decoration: none;
+  color: #fff;
+}
