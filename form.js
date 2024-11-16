@@ -27,6 +27,14 @@ let ex1 = document.querySelector('#ex1');
 let ex2 = document.querySelector('#ex2');
 let ex3 = document.querySelector('#ex3');
 
+let educ1=document.querySelector('#educ1');
+let educ2=document.querySelector('#educ2');
+let educ3=document.querySelector('#educ3');
+
+let exm1=document.querySelector('#exemple1');
+let exm2=document.querySelector('#exemple2');
+let exm3=document.querySelector('#exemple3');
+
 let card1=document.querySelector('.card1');
 
 let box = document.querySelector('.box');
@@ -59,6 +67,12 @@ btn.addEventListener('click', () =>{
     ex2 : ex2.value,
     dat3 : dat3.value,
     ex3 : ex3.value,
+    educ1 : educ1.value,
+    educ2 : educ2.value,
+    educ3 : educ3.value,
+    exm1 : exm1.value,
+    exm2 : exm2.value,
+    exm3 : exm3.value,
   }
   database.push(obj);
   localStorage.setItem("prod",JSON.stringify(database));
@@ -216,48 +230,44 @@ btn.addEventListener('click', () =>{
                 </div>
                 <div class="exp">
                   <p>
-                     ${database[i].ex3}
+                     ${database[i].exm1}
                   </p>
                 </div>
               </div>
               <h2>Éducation</h2>
               <div class="c-bottom">
                 <div class="date">
-                  <h5>L'INSITUT SPECIALISEE DE TECHNOLOGIE APPLIQUEE (ISMONTIC)</h5>
-                  <p>Tanger sept 2020-jul 2022
-                  </p>
+                  <h5>
+                 ${database[i].educ1}  
+                  
+                  </h5>
+
                 </div>
                 <div class="exp">
                   <p>
-                    Techicien Specialise cún reseaux informatiques.
+                   ${database[i].exm2}  
+                    
                   </p>
                 </div>
               </div>
-              
               <div class="c-bottom">
                 <div class="date">
                   <h5>
-                    LYCEE QUALIFIANT ABDDELALI BEN CHEKROUN
+                  ${database[i].educ2}   
+                    
                   </h5>
-                  <p>Larache | sep 2018 juin 2010
-                  </p>
                 </div>
                 <div class="exp">
                   <p>
-                    Baccolaureat Sciences de la via et de la terre.
+                   ${database[i].exm3}
                   </p>
                 </div>
               </div>
             </div>
         </div>
     </div>
-    
 </body>
-
-  
-  `;
-  }
-  
+`;}
   
   box.style.display='block';
   btn.style.display='none';
