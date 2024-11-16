@@ -35,6 +35,9 @@ body{
 }
 .card .c-img img{
     color: rgb(229, 75, 75);
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 .card .contact{
     width: 100%;
