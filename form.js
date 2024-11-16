@@ -1,4 +1,7 @@
+
+let img = document.querySelector('#img');
 let fulname = document.querySelector('#fulname');
+
 let age = document.querySelector('#age');
 let phon = document.querySelector('#phon');
 let mail = document.querySelector('#mail');
@@ -35,7 +38,7 @@ let btn = document.querySelector('#btn');
 
 btn.addEventListener('click', () =>{
   let obj = {
-    
+    img : img.value,
     fulname : fulname.value,
     age : age.value,
     phon : phon.value,
