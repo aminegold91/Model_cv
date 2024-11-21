@@ -76,16 +76,16 @@ body{
   text-shadow: 0 0 2px #000;
 }
 .box{
-  width: 90%;
-  height: 90%;
+/*   width: 90%;
+  height: 90%; */
   margin: 20px auto;
-  overflow: scroll;
+/*   overflow: scroll; */
   display: none;
 }
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
   height: 40px;
   width: 40px;
 }
 ::-webkit-scrollbar-thumb{
   background: #398D6E;
-}
+} */
